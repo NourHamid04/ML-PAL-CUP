@@ -1,0 +1,93 @@
+# =========================================
+# PYTHON
+# =========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# =========================================
+# NOTEBOOKS
+# =========================================
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Remove massive notebook outputs
+*.ipynb
+
+# But keep a clean version if needed:
+!Report.ipynb
+
+# =========================================
+# DATA
+# =========================================
+# Raw data
+data/raw/
+# Processed intermediate data
+data/processed/
+# Temporary working files
+*.tmp
+
+# CUP files delivered by professor
+ML-CUP25-TR.csv
+ML-CUP25-TS.csv
+
+# =========================================
+# OUTPUTS
+# =========================================
+# Model weights
+*.pt
+*.pth
+*.bin
+
+# Results
+*.csv
+*.npy
+
+# Figures
+figures/
+plots/
+*.png
+*.jpg
+*.svg
+
+# Logs
+logs/
+wandb/
+*.log
+
+# =========================================
+# OS FILES
+# =========================================
+# Windows / MacOS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# =========================================
+# CACHE / BUILD
+# =========================================
+.cache/
+build/
+dist/
+*.egg-info/
+
+# =========================================
+# PERSONAL FILES
+# =========================================
+*.pdf
+*.docx
+*.zip
+*.rar
