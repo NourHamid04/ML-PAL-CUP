@@ -21,29 +21,16 @@ env/
 # =========================================
 # NOTEBOOKS
 # =========================================
-# Jupyter notebook checkpoints
-.ipynb_checkpoints/
 
-# Remove massive notebook outputs
-*.ipynb
-
-# But keep a clean version if needed:
-!Report.ipynb
 
 # =========================================
 # DATA
 # =========================================
-# Raw data
-data/raw/
-# Processed intermediate data
-data/processed/
+
 # Temporary working files
 *.tmp
 
 # CUP files delivered by professor
-ML-CUP25-TR.csv
-ML-CUP25-TS.csv
-
 # =========================================
 # OUTPUTS
 # =========================================
@@ -52,16 +39,10 @@ ML-CUP25-TS.csv
 *.pth
 *.bin
 
-# Results
-*.csv
+
 *.npy
 
-# Figures
-figures/
-plots/
-*.png
-*.jpg
-*.svg
+
 
 # Logs
 logs/
